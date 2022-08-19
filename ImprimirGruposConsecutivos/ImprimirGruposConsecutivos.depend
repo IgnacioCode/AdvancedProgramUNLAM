@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1660874832 source:f:\github\advancedprogramunlam\pruebavectorimprimir\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1660875799 source:f:\github\advancedprogramunlam\imprimirgruposconsecutivos\main.c
+	<stdio.h>
+	<stdlib.h>
+
