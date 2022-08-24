@@ -4,7 +4,7 @@
 int main(){
 
 
-    int vector[]={3,1,5,7,9};
+    int vector[]={3,1,5,7,9,8,2,4};
     int tamVector = sizeof(vector)/sizeof(int);
     int i=0;
     int hayEspacio=1;
