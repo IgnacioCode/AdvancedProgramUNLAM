@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_6mQooCpWEe27N-nIsQ1_lQ" name="ProductosLocos">
+    <eAnnotations xmi:id="_61zggCpWEe27N-nIsQ1_lQ" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_61zggSpWEe27N-nIsQ1_lQ" source="codegen">
+        <details xmi:id="_610HkCpWEe27N-nIsQ1_lQ" key="codegenDirectory" value="/ProductosLocos/src"/>
+        <details xmi:id="_7ApekCpWEe27N-nIsQ1_lQ" key="AssociatedSourceCode" value="/ProductosLocos/src/products/CAgua.java;3072367044/1;/ProductosLocos/src/products/CAire.java;3388935678/1;/ProductosLocos/src/products/CNitrogeno.java;3000530359/1;/ProductosLocos/src/products/Congelados.java;3448205874/1;/ProductosLocos/src/products/Envios.java;2536700993/1;/ProductosLocos/src/products/Productos.java;3559989194/1;/ProductosLocos/src/products/Refrigerados.java;2958400593/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_68TxICpWEe27N-nIsQ1_lQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_68TxISpWEe27N-nIsQ1_lQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_68TxIipWEe27N-nIsQ1_lQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_68TxIypWEe27N-nIsQ1_lQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_68UYMCpWEe27N-nIsQ1_lQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_68UYMSpWEe27N-nIsQ1_lQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_68UYMipWEe27N-nIsQ1_lQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_68UYMypWEe27N-nIsQ1_lQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_68U_QCpWEe27N-nIsQ1_lQ">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_68ZQsCpWEe27N-nIsQ1_lQ" name="products">
+      <packagedElement xmi:type="uml:Class" xmi:id="_68pvYCpWEe27N-nIsQ1_lQ" name="CAgua">
+        <generalization xmi:id="_692CMCpWEe27N-nIsQ1_lQ" general="_681VkCpWEe27N-nIsQ1_lQ"/>
+        <ownedAttribute xmi:id="_699W8CpWEe27N-nIsQ1_lQ" name="salinidad" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yOzKSypdEe27N-nIsQ1_lQ" name="CAgua" specification="_yOzKQCpdEe27N-nIsQ1_lQ">
+          <ownedParameter xmi:id="_yOzKTCpdEe27N-nIsQ1_lQ" name="f" type="_UgiKkCpdEe27N-nIsQ1_lQ"/>
+          <ownedParameter xmi:id="_yOzKTSpdEe27N-nIsQ1_lQ" name="nroLote">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_yOzKTipdEe27N-nIsQ1_lQ" name="fechaEnv" type="_UgiKkCpdEe27N-nIsQ1_lQ"/>
+          <ownedParameter xmi:id="_yOzKTypdEe27N-nIsQ1_lQ" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_yOzKUCpdEe27N-nIsQ1_lQ" name="paisO">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_yOzKUSpdEe27N-nIsQ1_lQ" name="tempMan">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_yOzKUipdEe27N-nIsQ1_lQ" name="salinidad">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_yOzKUypdEe27N-nIsQ1_lQ" type="_68pvYCpWEe27N-nIsQ1_lQ" direction="return"/>
+          <language>java</language>
+          <body>super(f, nroLote, fechaEnv, nombre, paisO, tempMan);&#xD;
+		this.salinidad=salinidad;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_yOzKQCpdEe27N-nIsQ1_lQ" name="CAgua" method="_yOzKSypdEe27N-nIsQ1_lQ">
+          <eAnnotations xmi:id="_yOzKSSpdEe27N-nIsQ1_lQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_yOzKSipdEe27N-nIsQ1_lQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_yOzKQSpdEe27N-nIsQ1_lQ" name="f" type="_UgiKkCpdEe27N-nIsQ1_lQ"/>
+          <ownedParameter xmi:id="_yOzKQipdEe27N-nIsQ1_lQ" name="nroLote">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_yOzKQypdEe27N-nIsQ1_lQ" name="fechaEnv" type="_UgiKkCpdEe27N-nIsQ1_lQ"/>
+          <ownedParameter xmi:id="_yOzKRCpdEe27N-nIsQ1_lQ" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_yOzKRSpdEe27N-nIsQ1_lQ" name="paisO">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_yOzKRipdEe27N-nIsQ1_lQ" name="tempMan">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_yOzKRypdEe27N-nIsQ1_lQ" name="salinidad">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_yOzKSCpdEe27N-nIsQ1_lQ" type="_68pvYCpWEe27N-nIsQ1_lQ" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_68wdECpWEe27N-nIsQ1_lQ" name="CAire">
+        <generalization xmi:id="_692pQCpWEe27N-nIsQ1_lQ" general="_681VkCpWEe27N-nIsQ1_lQ"/>
+        <ownedAttribute xmi:id="_69-lECpWEe27N-nIsQ1_lQ" name="nitrogeno" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_69_MISpWEe27N-nIsQ1_lQ" name="oxigeno" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_69_zMCpWEe27N-nIsQ1_lQ" name="dioCarbono" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_69_zMipWEe27N-nIsQ1_lQ" name="vapor" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_xQSTlypdEe27N-nIsQ1_lQ" name="CAire" specification="_xQRsgCpdEe27N-nIsQ1_lQ">
+          <ownedParameter xmi:id="_xQSTmCpdEe27N-nIsQ1_lQ" name="f" type="_UgiKkCpdEe27N-nIsQ1_lQ"/>
+          <ownedParameter xmi:id="_xQSTmSpdEe27N-nIsQ1_lQ" name="nroLote">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_xQSTmipdEe27N-nIsQ1_lQ" name="fechaEnv" type="_UgiKkCpdEe27N-nIsQ1_lQ"/>
+          <ownedParameter xmi:id="_xQSTmypdEe27N-nIsQ1_lQ" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_xQSTnCpdEe27N-nIsQ1_lQ" name="paisO">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_xQSTnSpdEe27N-nIsQ1_lQ" name="tempMan">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_xQSTnipdEe27N-nIsQ1_lQ" name="nitro">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_xQSTnypdEe27N-nIsQ1_lQ" name="oxi">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_xQSToCpdEe27N-nIsQ1_lQ" name="dioCar">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_xQSToSpdEe27N-nIsQ1_lQ" name="vapor">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_xQSToipdEe27N-nIsQ1_lQ" type="_68wdECpWEe27N-nIsQ1_lQ" direction="return"/>
+          <language>java</language>
+          <body>super(f, nroLote, fechaEnv, nombre, paisO, tempMan);&#xD;
+		this.nitrogeno=nitro;&#xD;
+		this.oxigeno=oxi;&#xD;
+		this.dioCarbono=dioCar;&#xD;
+		this.vapor=vapor;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_xQRsgCpdEe27N-nIsQ1_lQ" name="CAire" method="_xQSTlypdEe27N-nIsQ1_lQ">
+          <eAnnotations xmi:id="_xQSTlSpdEe27N-nIsQ1_lQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_xQSTlipdEe27N-nIsQ1_lQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_xQRsgSpdEe27N-nIsQ1_lQ" name="f" type="_UgiKkCpdEe27N-nIsQ1_lQ"/>
+          <ownedParameter xmi:id="_xQRsgipdEe27N-nIsQ1_lQ" name="nroLote">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_xQRsgypdEe27N-nIsQ1_lQ" name="fechaEnv" type="_UgiKkCpdEe27N-nIsQ1_lQ"/>
+          <ownedParameter xmi:id="_xQRshCpdEe27N-nIsQ1_lQ" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_xQRshSpdEe27N-nIsQ1_lQ" name="paisO">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_xQRshipdEe27N-nIsQ1_lQ" name="tempMan">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_xQSTkCpdEe27N-nIsQ1_lQ" name="nitro">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_xQSTkSpdEe27N-nIsQ1_lQ" name="oxi">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_xQSTkipdEe27N-nIsQ1_lQ" name="dioCar">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_xQSTkypdEe27N-nIsQ1_lQ" name="vapor">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_xQSTlCpdEe27N-nIsQ1_lQ" type="_68wdECpWEe27N-nIsQ1_lQ" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_68zgYCpWEe27N-nIsQ1_lQ" name="CNitrogeno">
+        <generalization xmi:id="_693QUCpWEe27N-nIsQ1_lQ" general="_681VkCpWEe27N-nIsQ1_lQ"/>
+        <ownedAttribute xmi:id="_6-AaQSpWEe27N-nIsQ1_lQ" name="metodoCon" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_6-AaQypWEe27N-nIsQ1_lQ" name="tiempoCon" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_zqRCvCpdEe27N-nIsQ1_lQ" name="CNitrogeno" specification="_zqRCsCpdEe27N-nIsQ1_lQ">
+          <ownedParameter xmi:id="_zqRCvSpdEe27N-nIsQ1_lQ" name="f" type="_UgiKkCpdEe27N-nIsQ1_lQ"/>
+          <ownedParameter xmi:id="_zqRCvipdEe27N-nIsQ1_lQ" name="nroLote">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_zqRCvypdEe27N-nIsQ1_lQ" name="fechaEnv" type="_UgiKkCpdEe27N-nIsQ1_lQ"/>
+          <ownedParameter xmi:id="_zqRCwCpdEe27N-nIsQ1_lQ" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_zqRCwSpdEe27N-nIsQ1_lQ" name="paisO">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_zqRCwipdEe27N-nIsQ1_lQ" name="tempMan">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_zqRCwypdEe27N-nIsQ1_lQ" name="metodo">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_zqRCxCpdEe27N-nIsQ1_lQ" name="tiempo">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_zqRCxSpdEe27N-nIsQ1_lQ" type="_68zgYCpWEe27N-nIsQ1_lQ" direction="return"/>
+          <language>java</language>
+          <body>super(f, nroLote, fechaEnv, nombre, paisO, tempMan);&#xD;
+		this.metodoCon=metodo;&#xD;
+		this.tiempoCon=tiempo;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_zqRCsCpdEe27N-nIsQ1_lQ" name="CNitrogeno" method="_zqRCvCpdEe27N-nIsQ1_lQ">
+          <eAnnotations xmi:id="_zqRCuipdEe27N-nIsQ1_lQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_zqRCuypdEe27N-nIsQ1_lQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_zqRCsSpdEe27N-nIsQ1_lQ" name="f" type="_UgiKkCpdEe27N-nIsQ1_lQ"/>
+          <ownedParameter xmi:id="_zqRCsipdEe27N-nIsQ1_lQ" name="nroLote">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_zqRCsypdEe27N-nIsQ1_lQ" name="fechaEnv" type="_UgiKkCpdEe27N-nIsQ1_lQ"/>
+          <ownedParameter xmi:id="_zqRCtCpdEe27N-nIsQ1_lQ" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_zqRCtSpdEe27N-nIsQ1_lQ" name="paisO">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_zqRCtipdEe27N-nIsQ1_lQ" name="tempMan">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_zqRCtypdEe27N-nIsQ1_lQ" name="metodo">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_zqRCuCpdEe27N-nIsQ1_lQ" name="tiempo">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_zqRCuSpdEe27N-nIsQ1_lQ" type="_68zgYCpWEe27N-nIsQ1_lQ" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_681VkCpWEe27N-nIsQ1_lQ" name="Congelados">
+        <generalization xmi:id="_6933YCpWEe27N-nIsQ1_lQ" general="_683x0CpWEe27N-nIsQ1_lQ"/>
+        <ownedAttribute xmi:id="_6-BBUSpWEe27N-nIsQ1_lQ" name="tempMantenimiento" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qJTKICpaEe27N-nIsQ1_lQ" name="toString" specification="_qJRU8CpaEe27N-nIsQ1_lQ">
+          <ownedParameter xmi:id="_qJTKISpaEe27N-nIsQ1_lQ" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return super.toString() + &quot;|&quot; + this.tempMantenimiento;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_qRi_2SpdEe27N-nIsQ1_lQ" name="Congelados" specification="_qRiYwCpdEe27N-nIsQ1_lQ">
+          <ownedParameter xmi:id="_qRi_2ipdEe27N-nIsQ1_lQ" name="f" type="_UgiKkCpdEe27N-nIsQ1_lQ"/>
+          <ownedParameter xmi:id="_qRi_2ypdEe27N-nIsQ1_lQ" name="nroLote">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_qRi_3CpdEe27N-nIsQ1_lQ" name="fechaEnv" type="_UgiKkCpdEe27N-nIsQ1_lQ"/>
+          <ownedParameter xmi:id="_qRi_3SpdEe27N-nIsQ1_lQ" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_qRi_3ipdEe27N-nIsQ1_lQ" name="paisO">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_qRi_3ypdEe27N-nIsQ1_lQ" name="tempMan">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_qRi_4CpdEe27N-nIsQ1_lQ" type="_681VkCpWEe27N-nIsQ1_lQ" direction="return"/>
+          <language>java</language>
+          <body>super(f, nroLote, fechaEnv, nombre, paisO);&#xD;
+		this.tempMantenimiento=tempMan;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_qJRU8CpaEe27N-nIsQ1_lQ" name="toString" method="_qJTKICpaEe27N-nIsQ1_lQ">
+          <ownedParameter xmi:id="_qJSjECpaEe27N-nIsQ1_lQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_qRiYwCpdEe27N-nIsQ1_lQ" name="Congelados" method="_qRi_2SpdEe27N-nIsQ1_lQ">
+          <eAnnotations xmi:id="_qRi_1ypdEe27N-nIsQ1_lQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_qRi_2CpdEe27N-nIsQ1_lQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_qRi_0CpdEe27N-nIsQ1_lQ" name="f" type="_UgiKkCpdEe27N-nIsQ1_lQ"/>
+          <ownedParameter xmi:id="_qRi_0SpdEe27N-nIsQ1_lQ" name="nroLote">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_qRi_0ipdEe27N-nIsQ1_lQ" name="fechaEnv" type="_UgiKkCpdEe27N-nIsQ1_lQ"/>
+          <ownedParameter xmi:id="_qRi_0ypdEe27N-nIsQ1_lQ" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_qRi_1CpdEe27N-nIsQ1_lQ" name="paisO">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_qRi_1SpdEe27N-nIsQ1_lQ" name="tempMan">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_qRi_1ipdEe27N-nIsQ1_lQ" type="_681VkCpWEe27N-nIsQ1_lQ" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_683KwCpWEe27N-nIsQ1_lQ" name="Envios">
+        <ownedAttribute xmi:id="_cM-EECpYEe27N-nIsQ1_lQ" name="listaProductos" visibility="private" type="_683x0CpWEe27N-nIsQ1_lQ" isOrdered="true" association="_cNF_4CpYEe27N-nIsQ1_lQ">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cM-rICpYEe27N-nIsQ1_lQ" value="*"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cM_SMSpYEe27N-nIsQ1_lQ" name="Envios" specification="_cM06ICpYEe27N-nIsQ1_lQ">
+          <ownedParameter xmi:id="_cM_SMipYEe27N-nIsQ1_lQ" type="_683KwCpWEe27N-nIsQ1_lQ" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.listaProductos = new ArrayList&lt;Productos>();&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_cNFY0CpYEe27N-nIsQ1_lQ" name="añadirProducto" specification="_cM2IQipYEe27N-nIsQ1_lQ">
+          <ownedParameter xmi:id="_cNFY0SpYEe27N-nIsQ1_lQ" name="p" type="_683x0CpWEe27N-nIsQ1_lQ"/>
+          <language>java</language>
+          <body>this.listaProductos.add(p);&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_ZVfEICpZEe27N-nIsQ1_lQ" name="mostrarEnvio" specification="_ZVd2ACpZEe27N-nIsQ1_lQ">
+          <language>java</language>
+          <body>for(int i=0;i&lt;this.listaProductos.size();i++) {&#xD;
+			System.out.println(this.listaProductos.get(i));&#xD;
+		}&#xD;
+		&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_cM06ICpYEe27N-nIsQ1_lQ" name="Envios" method="_cM_SMSpYEe27N-nIsQ1_lQ">
+          <eAnnotations xmi:id="_cM2IQCpYEe27N-nIsQ1_lQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_cM2IQSpYEe27N-nIsQ1_lQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_cM1hMCpYEe27N-nIsQ1_lQ" type="_683KwCpWEe27N-nIsQ1_lQ" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_cM2IQipYEe27N-nIsQ1_lQ" name="añadirProducto" method="_cNFY0CpYEe27N-nIsQ1_lQ">
+          <ownedParameter xmi:id="_cM2IQypYEe27N-nIsQ1_lQ" name="p" type="_683x0CpWEe27N-nIsQ1_lQ"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_ZVd2ACpZEe27N-nIsQ1_lQ" name="mostrarEnvio" method="_ZVfEICpZEe27N-nIsQ1_lQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_683x0CpWEe27N-nIsQ1_lQ" name="Productos">
+        <ownedAttribute xmi:id="_6-BoYSpWEe27N-nIsQ1_lQ" name="fechaCaducidad" visibility="private" type="_UgiKkCpdEe27N-nIsQ1_lQ"/>
+        <ownedAttribute xmi:id="_6-CPcSpWEe27N-nIsQ1_lQ" name="nroLote" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_6-C2gSpWEe27N-nIsQ1_lQ" name="fechaEnvasado" visibility="private" type="_UgiKkCpdEe27N-nIsQ1_lQ"/>
+        <ownedAttribute xmi:id="_6-DdkCpWEe27N-nIsQ1_lQ" name="nombre" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_6-DdkipWEe27N-nIsQ1_lQ" name="paisOrigen" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_pfz9sCpZEe27N-nIsQ1_lQ" name="toString" specification="_pfyIgCpZEe27N-nIsQ1_lQ">
+          <ownedParameter xmi:id="_pfz9sSpZEe27N-nIsQ1_lQ" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return this.nombre + &quot;|&quot; + this.nroLote + &quot;|&quot;  + this.fechaEnvasado + &quot;|&quot; + this.paisOrigen;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_UgjYuSpdEe27N-nIsQ1_lQ" name="Productos" specification="_UgjYsCpdEe27N-nIsQ1_lQ">
+          <ownedParameter xmi:id="_UgjYuipdEe27N-nIsQ1_lQ" name="f" type="_UgiKkCpdEe27N-nIsQ1_lQ"/>
+          <ownedParameter xmi:id="_UgjYuypdEe27N-nIsQ1_lQ" name="nroLote">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_UgjYvCpdEe27N-nIsQ1_lQ" name="fechaEnv" type="_UgiKkCpdEe27N-nIsQ1_lQ"/>
+          <ownedParameter xmi:id="_UgjYvSpdEe27N-nIsQ1_lQ" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_UgjYvipdEe27N-nIsQ1_lQ" name="paisO">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_UgjYvypdEe27N-nIsQ1_lQ" type="_683x0CpWEe27N-nIsQ1_lQ" direction="return">
+            <name xsi:nil="true"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>this.fechaCaducidad=f;&#xD;
+		this.nroLote=nroLote;&#xD;
+		this.fechaEnvasado=fechaEnv;&#xD;
+		this.nombre=nombre;&#xD;
+		this.paisOrigen=paisO;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_pfyIgCpZEe27N-nIsQ1_lQ" name="toString" method="_pfz9sCpZEe27N-nIsQ1_lQ">
+          <ownedParameter xmi:id="_pfzWoCpZEe27N-nIsQ1_lQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_UgjYsCpdEe27N-nIsQ1_lQ" name="Productos" method="_UgjYuSpdEe27N-nIsQ1_lQ">
+          <eAnnotations xmi:id="_UgjYtypdEe27N-nIsQ1_lQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_UgjYuCpdEe27N-nIsQ1_lQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_UgjYsSpdEe27N-nIsQ1_lQ" name="f" type="_UgiKkCpdEe27N-nIsQ1_lQ"/>
+          <ownedParameter xmi:id="_UgjYsipdEe27N-nIsQ1_lQ" name="nroLote">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_UgjYsypdEe27N-nIsQ1_lQ" name="fechaEnv" type="_UgiKkCpdEe27N-nIsQ1_lQ"/>
+          <ownedParameter xmi:id="_UgjYtCpdEe27N-nIsQ1_lQ" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_UgjYtSpdEe27N-nIsQ1_lQ" name="paisO">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_UgjYtipdEe27N-nIsQ1_lQ" type="_683x0CpWEe27N-nIsQ1_lQ" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_687cMCpWEe27N-nIsQ1_lQ" name="Refrigerados">
+        <generalization xmi:id="_6966sCpWEe27N-nIsQ1_lQ" general="_681VkCpWEe27N-nIsQ1_lQ"/>
+        <ownedAttribute xmi:id="_6-EEoSpWEe27N-nIsQ1_lQ" name="codOrg" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_yv9d8ypaEe27N-nIsQ1_lQ" name="toString" specification="_yv824CpaEe27N-nIsQ1_lQ">
+          <ownedParameter xmi:id="_yv9d9CpaEe27N-nIsQ1_lQ" direction="return">
+            <name xsi:nil="true"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return super.toString() + &quot;|&quot; + this.codOrg;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_vrh8QCpdEe27N-nIsQ1_lQ" name="Refrigerados" specification="_vrhVMCpdEe27N-nIsQ1_lQ">
+          <ownedParameter xmi:id="_vrh8QSpdEe27N-nIsQ1_lQ" name="f" type="_UgiKkCpdEe27N-nIsQ1_lQ"/>
+          <ownedParameter xmi:id="_vrh8QipdEe27N-nIsQ1_lQ" name="nroLote">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_vrh8QypdEe27N-nIsQ1_lQ" name="fechaEnv" type="_UgiKkCpdEe27N-nIsQ1_lQ"/>
+          <ownedParameter xmi:id="_vrh8RCpdEe27N-nIsQ1_lQ" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_vrh8RSpdEe27N-nIsQ1_lQ" name="paisO">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_vrh8RipdEe27N-nIsQ1_lQ" name="tempMan">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_vrh8RypdEe27N-nIsQ1_lQ" name="codOrg">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_vrh8SCpdEe27N-nIsQ1_lQ" type="_687cMCpWEe27N-nIsQ1_lQ" direction="return"/>
+          <language>java</language>
+          <body>super(f, nroLote, fechaEnv, nombre, paisO, tempMan);&#xD;
+		this.codOrg=codOrg;&#xD;
+	</body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_yv824CpaEe27N-nIsQ1_lQ" name="toString" method="_yv9d8ypaEe27N-nIsQ1_lQ">
+          <ownedParameter xmi:id="_yv9d8ipaEe27N-nIsQ1_lQ" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_vrhVMCpdEe27N-nIsQ1_lQ" name="Refrigerados" method="_vrh8QCpdEe27N-nIsQ1_lQ">
+          <eAnnotations xmi:id="_vrhVOSpdEe27N-nIsQ1_lQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_vrhVOipdEe27N-nIsQ1_lQ" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_vrhVMSpdEe27N-nIsQ1_lQ" name="f" type="_UgiKkCpdEe27N-nIsQ1_lQ"/>
+          <ownedParameter xmi:id="_vrhVMipdEe27N-nIsQ1_lQ" name="nroLote">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_vrhVMypdEe27N-nIsQ1_lQ" name="fechaEnv" type="_UgiKkCpdEe27N-nIsQ1_lQ"/>
+          <ownedParameter xmi:id="_vrhVNCpdEe27N-nIsQ1_lQ" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_vrhVNSpdEe27N-nIsQ1_lQ" name="paisO">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_vrhVNipdEe27N-nIsQ1_lQ" name="tempMan">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_vrhVNypdEe27N-nIsQ1_lQ" name="codOrg">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_vrhVOCpdEe27N-nIsQ1_lQ" type="_687cMCpWEe27N-nIsQ1_lQ" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_cNF_4CpYEe27N-nIsQ1_lQ" name="" memberEnd="_cNF_4SpYEe27N-nIsQ1_lQ _cM-EECpYEe27N-nIsQ1_lQ">
+        <ownedEnd xmi:id="_cNF_4SpYEe27N-nIsQ1_lQ" name="" type="_683KwCpWEe27N-nIsQ1_lQ" association="_cNF_4CpYEe27N-nIsQ1_lQ"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_G5VVECpdEe27N-nIsQ1_lQ" name="LocalDate"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_68fXUCpWEe27N-nIsQ1_lQ" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_68f-YCpWEe27N-nIsQ1_lQ" name="util">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_694ecCpWEe27N-nIsQ1_lQ" name="Date"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_cM7n0CpYEe27N-nIsQ1_lQ" name="ArrayList"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_cM818CpYEe27N-nIsQ1_lQ" name="List"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_UgfHQCpdEe27N-nIsQ1_lQ" name="time">
+        <packagedElement xmi:type="uml:Class" xmi:id="_UgiKkCpdEe27N-nIsQ1_lQ" name="LocalDate"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_6118wCpWEe27N-nIsQ1_lQ">
+      <eAnnotations xmi:id="_615nICpWEe27N-nIsQ1_lQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_619RgCpWEe27N-nIsQ1_lQ" base_Package="_6mQooCpWEe27N-nIsQ1_lQ">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Reference xmi:id="_695FgCpWEe27N-nIsQ1_lQ" base_Element="_694ecCpWEe27N-nIsQ1_lQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_699-ACpWEe27N-nIsQ1_lQ" base_Element="_699W8CpWEe27N-nIsQ1_lQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_69_MICpWEe27N-nIsQ1_lQ" base_Element="_69-lECpWEe27N-nIsQ1_lQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_69_MIipWEe27N-nIsQ1_lQ" base_Element="_69_MISpWEe27N-nIsQ1_lQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_69_zMSpWEe27N-nIsQ1_lQ" base_Element="_69_zMCpWEe27N-nIsQ1_lQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6-AaQCpWEe27N-nIsQ1_lQ" base_Element="_69_zMipWEe27N-nIsQ1_lQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6-AaQipWEe27N-nIsQ1_lQ" base_Element="_6-AaQSpWEe27N-nIsQ1_lQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6-BBUCpWEe27N-nIsQ1_lQ" base_Element="_6-AaQypWEe27N-nIsQ1_lQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6-BoYCpWEe27N-nIsQ1_lQ" base_Element="_6-BBUSpWEe27N-nIsQ1_lQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6-CPcCpWEe27N-nIsQ1_lQ" base_Element="_6-BoYSpWEe27N-nIsQ1_lQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6-C2gCpWEe27N-nIsQ1_lQ" base_Element="_6-CPcSpWEe27N-nIsQ1_lQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6-C2gipWEe27N-nIsQ1_lQ" base_Element="_6-C2gSpWEe27N-nIsQ1_lQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6-DdkSpWEe27N-nIsQ1_lQ" base_Element="_6-DdkCpWEe27N-nIsQ1_lQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6-EEoCpWEe27N-nIsQ1_lQ" base_Element="_6-DdkipWEe27N-nIsQ1_lQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_6-ErsCpWEe27N-nIsQ1_lQ" base_Element="_6-EEoSpWEe27N-nIsQ1_lQ"/>
+  <UMLLabProfile:Reference xmi:id="_cM8O4CpYEe27N-nIsQ1_lQ" base_Element="_cM7n0CpYEe27N-nIsQ1_lQ"/>
+  <UMLLabProfile:Reference xmi:id="_cM9dACpYEe27N-nIsQ1_lQ" base_Element="_cM818CpYEe27N-nIsQ1_lQ"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_cM_SMCpYEe27N-nIsQ1_lQ" base_Element="_cM-EECpYEe27N-nIsQ1_lQ"/>
+  <UMLLabProfile:Reference xmi:id="_cNHOACpYEe27N-nIsQ1_lQ" base_Element="_cNF_4CpYEe27N-nIsQ1_lQ"/>
+  <UMLLabProfile:Annotations xmi:id="_pfyIgSpZEe27N-nIsQ1_lQ" base_Element="_pfyIgCpZEe27N-nIsQ1_lQ">
+    <annotations xmi:id="_pfyvkCpZEe27N-nIsQ1_lQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_pfyvkSpZEe27N-nIsQ1_lQ" base_Element="_pfyIgCpZEe27N-nIsQ1_lQ"/>
+  <UMLLabProfile:Annotations xmi:id="_qJR8ACpaEe27N-nIsQ1_lQ" base_Element="_qJRU8CpaEe27N-nIsQ1_lQ">
+    <annotations xmi:id="_qJR8ASpaEe27N-nIsQ1_lQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_qJR8AipaEe27N-nIsQ1_lQ" base_Element="_qJRU8CpaEe27N-nIsQ1_lQ"/>
+  <UMLLabProfile:Annotations xmi:id="_yv824SpaEe27N-nIsQ1_lQ" base_Element="_yv824CpaEe27N-nIsQ1_lQ">
+    <annotations xmi:id="_yv9d8CpaEe27N-nIsQ1_lQ" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_yv9d8SpaEe27N-nIsQ1_lQ" base_Element="_yv824CpaEe27N-nIsQ1_lQ"/>
+  <UMLLabProfile:Reference xmi:id="_G5V8ICpdEe27N-nIsQ1_lQ" base_Element="_G5VVECpdEe27N-nIsQ1_lQ"/>
+  <UMLLabProfile:Reference xmi:id="_UgixoCpdEe27N-nIsQ1_lQ" base_Element="_UgiKkCpdEe27N-nIsQ1_lQ"/>
+</xmi:XMI>

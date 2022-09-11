@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_6oXhcCpWEe27N-nIsQ1_lQ">
+  <modelElement href="ProductosLocos.uml#_68ZQsCpWEe27N-nIsQ1_lQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_7BpkICpWEe27N-nIsQ1_lQ" sourceAnchor="206.0,0.0" targetAnchor="142.0,175.0" superClass="_7BelACpWEe27N-nIsQ1_lQ" subClass="_7BtOgCpWEe27N-nIsQ1_lQ">
+    <modelElement href="ProductosLocos.uml#_6933YCpWEe27N-nIsQ1_lQ"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_7BqLMCpWEe27N-nIsQ1_lQ" sourceAnchor="126.0,0.0" targetAnchor="192.0,99.0" superClass="_7BtOgCpWEe27N-nIsQ1_lQ" subClass="_7Bmg0CpWEe27N-nIsQ1_lQ">
+    <modelElement href="ProductosLocos.uml#_692CMCpWEe27N-nIsQ1_lQ"/>
+    <bendpoints xmi:id="_UDRKUipeEe27N-nIsQ1_lQ" sourceY="-30" targetX="-343" targetY="122"/>
+    <bendpoints xmi:id="_UDRKUypeEe27N-nIsQ1_lQ" sourceX="343" sourceY="-30" targetY="122"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_7BqLMSpWEe27N-nIsQ1_lQ" sourceAnchor="133.0,0.0" targetAnchor="192.0,99.0" superClass="_7BtOgCpWEe27N-nIsQ1_lQ" subClass="_7Bi2cCpWEe27N-nIsQ1_lQ">
+    <modelElement href="ProductosLocos.uml#_692pQCpWEe27N-nIsQ1_lQ"/>
+    <bendpoints xmi:id="_UDRxYCpeEe27N-nIsQ1_lQ" sourceY="-39" targetX="540" targetY="122"/>
+    <bendpoints xmi:id="_UDRxYSpeEe27N-nIsQ1_lQ" sourceX="-540" sourceY="-39" targetY="122"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_7BqLMipWEe27N-nIsQ1_lQ" sourceAnchor="115.0,0.0" targetAnchor="192.0,99.0" superClass="_7BtOgCpWEe27N-nIsQ1_lQ" subClass="_7Az2oCpWEe27N-nIsQ1_lQ">
+    <modelElement href="ProductosLocos.uml#_693QUCpWEe27N-nIsQ1_lQ"/>
+    <bendpoints xmi:id="_UDRKUCpeEe27N-nIsQ1_lQ" sourceY="-34" targetX="-800" targetY="122"/>
+    <bendpoints xmi:id="_UDRKUSpeEe27N-nIsQ1_lQ" sourceX="800" sourceY="-34" targetY="122"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_7BqLMypWEe27N-nIsQ1_lQ" sourceAnchor="179.0,0.0" targetAnchor="192.0,99.0" superClass="_7BtOgCpWEe27N-nIsQ1_lQ" subClass="_7Ba6oCpWEe27N-nIsQ1_lQ">
+    <modelElement href="ProductosLocos.uml#_6966sCpWEe27N-nIsQ1_lQ"/>
+    <bendpoints xmi:id="_UDRKVCpeEe27N-nIsQ1_lQ" sourceY="-42" targetX="109" targetY="122"/>
+    <bendpoints xmi:id="_UDRKVSpeEe27N-nIsQ1_lQ" sourceX="-109" sourceY="-42" targetY="122"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_cN4DACpYEe27N-nIsQ1_lQ" sourceAnchor="0.0,17.0" targetAnchor="285.0,87.0" target="_7BelACpWEe27N-nIsQ1_lQ" source="_7B4NoCpWEe27N-nIsQ1_lQ">
+    <modelElement href="ProductosLocos.uml#_cNF_4CpYEe27N-nIsQ1_lQ"/>
+    <visualProperties xmi:id="_f0uN4CpYEe27N-nIsQ1_lQ" position="1954.0,94.0"/>
+    <stereotypes xmi:id="_cN4DASpYEe27N-nIsQ1_lQ" name="Reference">
+      <modelElement href="ProductosLocos.uml#_cNHOACpYEe27N-nIsQ1_lQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_cN4DAipYEe27N-nIsQ1_lQ" text="">
+      <visualProperties xmi:id="_e9iHMCpYEe27N-nIsQ1_lQ" position="-18.5,-18.500000000000007"/>
+    </nameVisual>
+    <sourceRole xmi:id="_cN4DAypYEe27N-nIsQ1_lQ" aggregationKind="NONE" name="">
+      <modelElement href="ProductosLocos.uml#_cNF_4SpYEe27N-nIsQ1_lQ"/>
+      <visualProperties xmi:id="_e9hgICpYEe27N-nIsQ1_lQ" position="-29.461538461538566,2.5"/>
+      <visibility xmi:id="_cN4DBCpYEe27N-nIsQ1_lQ" label="+"/>
+      <cardinality xmi:id="_cN4DBSpYEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_cN4DBipYEe27N-nIsQ1_lQ" aggregationKind="NONE" name="listaProductos" navigable="true">
+      <modelElement href="ProductosLocos.uml#_cM-EECpYEe27N-nIsQ1_lQ"/>
+      <visualProperties xmi:id="_e9iHMSpYEe27N-nIsQ1_lQ" position="34.33333333333326,2.499999999999986"/>
+      <stereotypes xmi:id="_cOAl4CpYEe27N-nIsQ1_lQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_an-0gCpeEe2HmqjO7xDpKQ" name="LegacyStyledElement">
+        <modelElement href="ProductosLocos.uml#_cM_SMCpYEe27N-nIsQ1_lQ"/>
+      </stereotypes>
+      <visibility xmi:id="_cN4DBypYEe27N-nIsQ1_lQ" label="-"/>
+      <cardinality xmi:id="_cN4DCCpYEe27N-nIsQ1_lQ" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_7Az2oCpWEe27N-nIsQ1_lQ" name="CNitrogeno" generalizations="_7BqLMipWEe27N-nIsQ1_lQ">
+    <modelElement href="ProductosLocos.uml#_68zgYCpWEe27N-nIsQ1_lQ"/>
+    <visualProperties xmi:id="_7A0dsCpWEe27N-nIsQ1_lQ" position="576.0,485.0" size="231.0,99.0"/>
+    <visibility xmi:id="_7A0dsSpWEe27N-nIsQ1_lQ" label="+"/>
+    <attributes xmi:id="_7A0dsipWEe27N-nIsQ1_lQ" name="metodoCon">
+      <modelElement href="ProductosLocos.uml#_6-AaQSpWEe27N-nIsQ1_lQ"/>
+      <visualProperties xmi:id="_TZZG4CpeEe27N-nIsQ1_lQ"/>
+      <stereotypes xmi:id="_7A0dsypWEe27N-nIsQ1_lQ" name="LegacyStyledElement">
+        <modelElement href="ProductosLocos.uml#_6-AaQipWEe27N-nIsQ1_lQ"/>
+      </stereotypes>
+      <visibility xmi:id="_7A0dtCpWEe27N-nIsQ1_lQ" label="-"/>
+      <cardinality xmi:id="_7A0dtSpWEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+      <type xmi:id="_7A0dtipWEe27N-nIsQ1_lQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_7A0dtypWEe27N-nIsQ1_lQ" name="tiempoCon">
+      <modelElement href="ProductosLocos.uml#_6-AaQypWEe27N-nIsQ1_lQ"/>
+      <visualProperties xmi:id="_TZZG4SpeEe27N-nIsQ1_lQ"/>
+      <stereotypes xmi:id="_7A0duCpWEe27N-nIsQ1_lQ" name="LegacyStyledElement">
+        <modelElement href="ProductosLocos.uml#_6-BBUCpWEe27N-nIsQ1_lQ"/>
+      </stereotypes>
+      <visibility xmi:id="_7A0duSpWEe27N-nIsQ1_lQ" label="-"/>
+      <cardinality xmi:id="_7A0duipWEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+      <type xmi:id="_7A0duypWEe27N-nIsQ1_lQ" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_zs9xYCpdEe27N-nIsQ1_lQ" name="CNitrogeno">
+      <modelElement href="ProductosLocos.uml#_zqRCsCpdEe27N-nIsQ1_lQ"/>
+      <visualProperties xmi:id="_TZZG4ipeEe27N-nIsQ1_lQ"/>
+      <keywords xmi:id="_zs9xYSpdEe27N-nIsQ1_lQ" keyword="create"/>
+      <visibility xmi:id="_zs9xYipdEe27N-nIsQ1_lQ" label="+"/>
+      <cardinality xmi:id="_zs9xYypdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zs9xZCpdEe27N-nIsQ1_lQ">
+        <modelElement href="ProductosLocos.uml#_zqRCuSpdEe27N-nIsQ1_lQ"/>
+        <type xmi:id="_zs9xZSpdEe27N-nIsQ1_lQ" name="CNitrogeno">
+          <modelElement href="ProductosLocos.uml#_68zgYCpWEe27N-nIsQ1_lQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_zs9xZipdEe27N-nIsQ1_lQ" name="f">
+        <modelElement href="ProductosLocos.uml#_zqRCsSpdEe27N-nIsQ1_lQ"/>
+        <cardinality xmi:id="_zs9xZypdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+        <type xmi:id="_zs9xaCpdEe27N-nIsQ1_lQ" name="LocalDate">
+          <modelElement href="ProductosLocos.uml#_UgiKkCpdEe27N-nIsQ1_lQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zs9xaSpdEe27N-nIsQ1_lQ" name="nroLote">
+        <modelElement href="ProductosLocos.uml#_zqRCsipdEe27N-nIsQ1_lQ"/>
+        <cardinality xmi:id="_zs9xaipdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+        <type xmi:id="_zs9xaypdEe27N-nIsQ1_lQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zs9xbCpdEe27N-nIsQ1_lQ" name="fechaEnv">
+        <modelElement href="ProductosLocos.uml#_zqRCsypdEe27N-nIsQ1_lQ"/>
+        <cardinality xmi:id="_zs9xbSpdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+        <type xmi:id="_zs9xbipdEe27N-nIsQ1_lQ" name="LocalDate">
+          <modelElement href="ProductosLocos.uml#_UgiKkCpdEe27N-nIsQ1_lQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zs9xbypdEe27N-nIsQ1_lQ" name="nombre">
+        <modelElement href="ProductosLocos.uml#_zqRCtCpdEe27N-nIsQ1_lQ"/>
+        <cardinality xmi:id="_zs9xcCpdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+        <type xmi:id="_zs9xcSpdEe27N-nIsQ1_lQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zs9xcipdEe27N-nIsQ1_lQ" name="paisO">
+        <modelElement href="ProductosLocos.uml#_zqRCtSpdEe27N-nIsQ1_lQ"/>
+        <cardinality xmi:id="_zs9xcypdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+        <type xmi:id="_zs9xdCpdEe27N-nIsQ1_lQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zs9xdSpdEe27N-nIsQ1_lQ" name="tempMan">
+        <modelElement href="ProductosLocos.uml#_zqRCtipdEe27N-nIsQ1_lQ"/>
+        <cardinality xmi:id="_zs9xdipdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+        <type xmi:id="_zs9xdypdEe27N-nIsQ1_lQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zs9xeCpdEe27N-nIsQ1_lQ" name="metodo">
+        <modelElement href="ProductosLocos.uml#_zqRCtypdEe27N-nIsQ1_lQ"/>
+        <cardinality xmi:id="_zs9xeSpdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+        <type xmi:id="_zs9xeipdEe27N-nIsQ1_lQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zs9xeypdEe27N-nIsQ1_lQ" name="tiempo">
+        <modelElement href="ProductosLocos.uml#_zqRCuCpdEe27N-nIsQ1_lQ"/>
+        <cardinality xmi:id="_zs9xfCpdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+        <type xmi:id="_zs9xfSpdEe27N-nIsQ1_lQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_7Bmg0CpWEe27N-nIsQ1_lQ" name="CAgua" generalizations="_7BqLMCpWEe27N-nIsQ1_lQ">
+    <modelElement href="ProductosLocos.uml#_68pvYCpWEe27N-nIsQ1_lQ"/>
+    <visualProperties xmi:id="_7BnH4CpWEe27N-nIsQ1_lQ" position="1022.0,481.0" size="253.0,108.0"/>
+    <visibility xmi:id="_7BnH4SpWEe27N-nIsQ1_lQ" label="+"/>
+    <attributes xmi:id="_7BnH4ipWEe27N-nIsQ1_lQ" name="salinidad">
+      <modelElement href="ProductosLocos.uml#_699W8CpWEe27N-nIsQ1_lQ"/>
+      <visualProperties xmi:id="_TZZG4ypeEe27N-nIsQ1_lQ"/>
+      <stereotypes xmi:id="_7BnH4ypWEe27N-nIsQ1_lQ" name="LegacyStyledElement">
+        <modelElement href="ProductosLocos.uml#_699-ACpWEe27N-nIsQ1_lQ"/>
+      </stereotypes>
+      <visibility xmi:id="_7BnH5CpWEe27N-nIsQ1_lQ" label="-"/>
+      <cardinality xmi:id="_7BnH5SpWEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+      <type xmi:id="_7BnH5ipWEe27N-nIsQ1_lQ" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_yUMAkCpdEe27N-nIsQ1_lQ" name="CAgua">
+      <modelElement href="ProductosLocos.uml#_yOzKQCpdEe27N-nIsQ1_lQ"/>
+      <visualProperties xmi:id="_LovOACpeEe27N-nIsQ1_lQ"/>
+      <keywords xmi:id="_yUMAkSpdEe27N-nIsQ1_lQ" keyword="create"/>
+      <visibility xmi:id="_yUMAkipdEe27N-nIsQ1_lQ" label="+"/>
+      <cardinality xmi:id="_yUMAkypdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yUMAlCpdEe27N-nIsQ1_lQ">
+        <modelElement href="ProductosLocos.uml#_yOzKSCpdEe27N-nIsQ1_lQ"/>
+        <type xmi:id="_yUMAlSpdEe27N-nIsQ1_lQ" name="CAgua">
+          <modelElement href="ProductosLocos.uml#_68pvYCpWEe27N-nIsQ1_lQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_yUMAlipdEe27N-nIsQ1_lQ" name="f">
+        <modelElement href="ProductosLocos.uml#_yOzKQSpdEe27N-nIsQ1_lQ"/>
+        <cardinality xmi:id="_yUMAlypdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+        <type xmi:id="_yUMAmCpdEe27N-nIsQ1_lQ" name="LocalDate">
+          <modelElement href="ProductosLocos.uml#_UgiKkCpdEe27N-nIsQ1_lQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_yUMAmSpdEe27N-nIsQ1_lQ" name="nroLote">
+        <modelElement href="ProductosLocos.uml#_yOzKQipdEe27N-nIsQ1_lQ"/>
+        <cardinality xmi:id="_yUMAmipdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+        <type xmi:id="_yUMAmypdEe27N-nIsQ1_lQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_yUMAnCpdEe27N-nIsQ1_lQ" name="fechaEnv">
+        <modelElement href="ProductosLocos.uml#_yOzKQypdEe27N-nIsQ1_lQ"/>
+        <cardinality xmi:id="_yUMAnSpdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+        <type xmi:id="_yUMAnipdEe27N-nIsQ1_lQ" name="LocalDate">
+          <modelElement href="ProductosLocos.uml#_UgiKkCpdEe27N-nIsQ1_lQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_yUMAnypdEe27N-nIsQ1_lQ" name="nombre">
+        <modelElement href="ProductosLocos.uml#_yOzKRCpdEe27N-nIsQ1_lQ"/>
+        <cardinality xmi:id="_yUMAoCpdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+        <type xmi:id="_yUMAoSpdEe27N-nIsQ1_lQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_yUMAoipdEe27N-nIsQ1_lQ" name="paisO">
+        <modelElement href="ProductosLocos.uml#_yOzKRSpdEe27N-nIsQ1_lQ"/>
+        <cardinality xmi:id="_yUMAoypdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+        <type xmi:id="_yUMApCpdEe27N-nIsQ1_lQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_yUMApSpdEe27N-nIsQ1_lQ" name="tempMan">
+        <modelElement href="ProductosLocos.uml#_yOzKRipdEe27N-nIsQ1_lQ"/>
+        <cardinality xmi:id="_yUMApipdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+        <type xmi:id="_yUMApypdEe27N-nIsQ1_lQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_yUMAqCpdEe27N-nIsQ1_lQ" name="salinidad">
+        <modelElement href="ProductosLocos.uml#_yOzKRypdEe27N-nIsQ1_lQ"/>
+        <cardinality xmi:id="_yUMAqSpdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+        <type xmi:id="_yUMAqipdEe27N-nIsQ1_lQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_7Ba6oCpWEe27N-nIsQ1_lQ" name="Refrigerados" generalizations="_7BqLMypWEe27N-nIsQ1_lQ">
+    <modelElement href="ProductosLocos.uml#_687cMCpWEe27N-nIsQ1_lQ"/>
+    <visualProperties xmi:id="_7Ba6oSpWEe27N-nIsQ1_lQ" position="1421.0,493.0" size="359.0,99.0"/>
+    <visibility xmi:id="_7Ba6oipWEe27N-nIsQ1_lQ" label="+"/>
+    <attributes xmi:id="_7Ba6oypWEe27N-nIsQ1_lQ" name="codOrg">
+      <modelElement href="ProductosLocos.uml#_6-EEoSpWEe27N-nIsQ1_lQ"/>
+      <visualProperties xmi:id="_TZZG5CpeEe27N-nIsQ1_lQ"/>
+      <stereotypes xmi:id="_7Ba6pCpWEe27N-nIsQ1_lQ" name="LegacyStyledElement">
+        <modelElement href="ProductosLocos.uml#_6-ErsCpWEe27N-nIsQ1_lQ"/>
+      </stereotypes>
+      <visibility xmi:id="_7Ba6pSpWEe27N-nIsQ1_lQ" label="-"/>
+      <cardinality xmi:id="_7Ba6pipWEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+      <type xmi:id="_7Ba6pypWEe27N-nIsQ1_lQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_yv-FACpaEe27N-nIsQ1_lQ" name="toString">
+      <modelElement href="ProductosLocos.uml#_yv824CpaEe27N-nIsQ1_lQ"/>
+      <visualProperties xmi:id="_TZZG5SpeEe27N-nIsQ1_lQ"/>
+      <stereotypes xmi:id="_yv-FASpaEe27N-nIsQ1_lQ" name="Annotations">
+        <modelElement href="ProductosLocos.uml#_yv824SpaEe27N-nIsQ1_lQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_yv-FAipaEe27N-nIsQ1_lQ" name="LegacyStyledElement">
+        <modelElement href="ProductosLocos.uml#_yv9d8SpaEe27N-nIsQ1_lQ"/>
+      </stereotypes>
+      <visibility xmi:id="_yv-FAypaEe27N-nIsQ1_lQ" label="+"/>
+      <cardinality xmi:id="_yv-FBCpaEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_yv-FBSpaEe27N-nIsQ1_lQ">
+        <modelElement href="ProductosLocos.uml#_yv9d8ipaEe27N-nIsQ1_lQ"/>
+        <type xmi:id="_yv-FBipaEe27N-nIsQ1_lQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_vufJoCpdEe27N-nIsQ1_lQ" name="Refrigerados">
+      <modelElement href="ProductosLocos.uml#_vrhVMCpdEe27N-nIsQ1_lQ"/>
+      <visualProperties xmi:id="_TZZG5ipeEe27N-nIsQ1_lQ"/>
+      <keywords xmi:id="_vufwsCpdEe27N-nIsQ1_lQ" keyword="create"/>
+      <visibility xmi:id="_vufwsSpdEe27N-nIsQ1_lQ" label="+"/>
+      <cardinality xmi:id="_vufwsipdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_vufwsypdEe27N-nIsQ1_lQ">
+        <modelElement href="ProductosLocos.uml#_vrhVOCpdEe27N-nIsQ1_lQ"/>
+        <type xmi:id="_vufwtCpdEe27N-nIsQ1_lQ" name="Refrigerados">
+          <modelElement href="ProductosLocos.uml#_687cMCpWEe27N-nIsQ1_lQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_vufwtSpdEe27N-nIsQ1_lQ" name="f">
+        <modelElement href="ProductosLocos.uml#_vrhVMSpdEe27N-nIsQ1_lQ"/>
+        <cardinality xmi:id="_vufwtipdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+        <type xmi:id="_vufwtypdEe27N-nIsQ1_lQ" name="LocalDate">
+          <modelElement href="ProductosLocos.uml#_UgiKkCpdEe27N-nIsQ1_lQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_vufwuCpdEe27N-nIsQ1_lQ" name="nroLote">
+        <modelElement href="ProductosLocos.uml#_vrhVMipdEe27N-nIsQ1_lQ"/>
+        <cardinality xmi:id="_vufwuSpdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+        <type xmi:id="_vufwuipdEe27N-nIsQ1_lQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_vufwuypdEe27N-nIsQ1_lQ" name="fechaEnv">
+        <modelElement href="ProductosLocos.uml#_vrhVMypdEe27N-nIsQ1_lQ"/>
+        <cardinality xmi:id="_vufwvCpdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+        <type xmi:id="_vufwvSpdEe27N-nIsQ1_lQ" name="LocalDate">
+          <modelElement href="ProductosLocos.uml#_UgiKkCpdEe27N-nIsQ1_lQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_vufwvipdEe27N-nIsQ1_lQ" name="nombre">
+        <modelElement href="ProductosLocos.uml#_vrhVNCpdEe27N-nIsQ1_lQ"/>
+        <cardinality xmi:id="_vufwvypdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+        <type xmi:id="_vufwwCpdEe27N-nIsQ1_lQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_vufwwSpdEe27N-nIsQ1_lQ" name="paisO">
+        <modelElement href="ProductosLocos.uml#_vrhVNSpdEe27N-nIsQ1_lQ"/>
+        <cardinality xmi:id="_vufwwipdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+        <type xmi:id="_vufwwypdEe27N-nIsQ1_lQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_vufwxCpdEe27N-nIsQ1_lQ" name="tempMan">
+        <modelElement href="ProductosLocos.uml#_vrhVNipdEe27N-nIsQ1_lQ"/>
+        <cardinality xmi:id="_vufwxSpdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+        <type xmi:id="_vufwxipdEe27N-nIsQ1_lQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_vufwxypdEe27N-nIsQ1_lQ" name="codOrg">
+        <modelElement href="ProductosLocos.uml#_vrhVNypdEe27N-nIsQ1_lQ"/>
+        <cardinality xmi:id="_vufwyCpdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+        <type xmi:id="_vufwySpdEe27N-nIsQ1_lQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_7Bi2cCpWEe27N-nIsQ1_lQ" name="CAire" generalizations="_7BqLMSpWEe27N-nIsQ1_lQ">
+    <modelElement href="ProductosLocos.uml#_68wdECpWEe27N-nIsQ1_lQ"/>
+    <visualProperties xmi:id="_7Bi2cSpWEe27N-nIsQ1_lQ" position="1898.0,490.0" size="266.0,137.0"/>
+    <visibility xmi:id="_7Bi2cipWEe27N-nIsQ1_lQ" label="+"/>
+    <attributes xmi:id="_7Bi2cypWEe27N-nIsQ1_lQ" name="nitrogeno">
+      <modelElement href="ProductosLocos.uml#_69-lECpWEe27N-nIsQ1_lQ"/>
+      <visualProperties xmi:id="_TZZG5ypeEe27N-nIsQ1_lQ"/>
+      <stereotypes xmi:id="_7Bi2dCpWEe27N-nIsQ1_lQ" name="LegacyStyledElement">
+        <modelElement href="ProductosLocos.uml#_69_MICpWEe27N-nIsQ1_lQ"/>
+      </stereotypes>
+      <visibility xmi:id="_7Bi2dSpWEe27N-nIsQ1_lQ" label="-"/>
+      <cardinality xmi:id="_7Bi2dipWEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+      <type xmi:id="_7Bi2dypWEe27N-nIsQ1_lQ" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_7Bi2eCpWEe27N-nIsQ1_lQ" name="oxigeno">
+      <modelElement href="ProductosLocos.uml#_69_MISpWEe27N-nIsQ1_lQ"/>
+      <visualProperties xmi:id="_TZZt8CpeEe27N-nIsQ1_lQ"/>
+      <stereotypes xmi:id="_7Bi2eSpWEe27N-nIsQ1_lQ" name="LegacyStyledElement">
+        <modelElement href="ProductosLocos.uml#_69_MIipWEe27N-nIsQ1_lQ"/>
+      </stereotypes>
+      <visibility xmi:id="_7Bi2eipWEe27N-nIsQ1_lQ" label="-"/>
+      <cardinality xmi:id="_7Bi2eypWEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+      <type xmi:id="_7Bi2fCpWEe27N-nIsQ1_lQ" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_7Bi2fSpWEe27N-nIsQ1_lQ" name="dioCarbono">
+      <modelElement href="ProductosLocos.uml#_69_zMCpWEe27N-nIsQ1_lQ"/>
+      <visualProperties xmi:id="_TZZt8SpeEe27N-nIsQ1_lQ"/>
+      <stereotypes xmi:id="_7Bi2fipWEe27N-nIsQ1_lQ" name="LegacyStyledElement">
+        <modelElement href="ProductosLocos.uml#_69_zMSpWEe27N-nIsQ1_lQ"/>
+      </stereotypes>
+      <visibility xmi:id="_7Bi2fypWEe27N-nIsQ1_lQ" label="-"/>
+      <cardinality xmi:id="_7Bi2gCpWEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+      <type xmi:id="_7Bi2gSpWEe27N-nIsQ1_lQ" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_7Bi2gipWEe27N-nIsQ1_lQ" name="vapor">
+      <modelElement href="ProductosLocos.uml#_69_zMipWEe27N-nIsQ1_lQ"/>
+      <visualProperties xmi:id="_TZZt8ipeEe27N-nIsQ1_lQ"/>
+      <stereotypes xmi:id="_7Bi2gypWEe27N-nIsQ1_lQ" name="LegacyStyledElement">
+        <modelElement href="ProductosLocos.uml#_6-AaQCpWEe27N-nIsQ1_lQ"/>
+      </stereotypes>
+      <visibility xmi:id="_7Bi2hCpWEe27N-nIsQ1_lQ" label="-"/>
+      <cardinality xmi:id="_7Bi2hSpWEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+      <type xmi:id="_7Bi2hipWEe27N-nIsQ1_lQ" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_xiSCgCpdEe27N-nIsQ1_lQ" name="CAire">
+      <modelElement href="ProductosLocos.uml#_xQRsgCpdEe27N-nIsQ1_lQ"/>
+      <visualProperties xmi:id="_TZZt8ypeEe27N-nIsQ1_lQ"/>
+      <keywords xmi:id="_xiSCgSpdEe27N-nIsQ1_lQ" keyword="create"/>
+      <visibility xmi:id="_xiSCgipdEe27N-nIsQ1_lQ" label="+"/>
+      <cardinality xmi:id="_xiSCgypdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_xiSChCpdEe27N-nIsQ1_lQ">
+        <modelElement href="ProductosLocos.uml#_xQSTlCpdEe27N-nIsQ1_lQ"/>
+        <type xmi:id="_xiSChSpdEe27N-nIsQ1_lQ" name="CAire">
+          <modelElement href="ProductosLocos.uml#_68wdECpWEe27N-nIsQ1_lQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_xiSChipdEe27N-nIsQ1_lQ" name="f">
+        <modelElement href="ProductosLocos.uml#_xQRsgSpdEe27N-nIsQ1_lQ"/>
+        <cardinality xmi:id="_xiSChypdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+        <type xmi:id="_xiSCiCpdEe27N-nIsQ1_lQ" name="LocalDate">
+          <modelElement href="ProductosLocos.uml#_UgiKkCpdEe27N-nIsQ1_lQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_xiSCiSpdEe27N-nIsQ1_lQ" name="nroLote">
+        <modelElement href="ProductosLocos.uml#_xQRsgipdEe27N-nIsQ1_lQ"/>
+        <cardinality xmi:id="_xiSCiipdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+        <type xmi:id="_xiSCiypdEe27N-nIsQ1_lQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_xiSCjCpdEe27N-nIsQ1_lQ" name="fechaEnv">
+        <modelElement href="ProductosLocos.uml#_xQRsgypdEe27N-nIsQ1_lQ"/>
+        <cardinality xmi:id="_xiSCjSpdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+        <type xmi:id="_xiSCjipdEe27N-nIsQ1_lQ" name="LocalDate">
+          <modelElement href="ProductosLocos.uml#_UgiKkCpdEe27N-nIsQ1_lQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_xiSCjypdEe27N-nIsQ1_lQ" name="nombre">
+        <modelElement href="ProductosLocos.uml#_xQRshCpdEe27N-nIsQ1_lQ"/>
+        <cardinality xmi:id="_xiSCkCpdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+        <type xmi:id="_xiSCkSpdEe27N-nIsQ1_lQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_xiSCkipdEe27N-nIsQ1_lQ" name="paisO">
+        <modelElement href="ProductosLocos.uml#_xQRshSpdEe27N-nIsQ1_lQ"/>
+        <cardinality xmi:id="_xiSCkypdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+        <type xmi:id="_xiSClCpdEe27N-nIsQ1_lQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_xiSClSpdEe27N-nIsQ1_lQ" name="tempMan">
+        <modelElement href="ProductosLocos.uml#_xQRshipdEe27N-nIsQ1_lQ"/>
+        <cardinality xmi:id="_xiSClipdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+        <type xmi:id="_xiSClypdEe27N-nIsQ1_lQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_xiSCmCpdEe27N-nIsQ1_lQ" name="nitro">
+        <modelElement href="ProductosLocos.uml#_xQSTkCpdEe27N-nIsQ1_lQ"/>
+        <cardinality xmi:id="_xiSCmSpdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+        <type xmi:id="_xiSCmipdEe27N-nIsQ1_lQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_xiSCmypdEe27N-nIsQ1_lQ" name="oxi">
+        <modelElement href="ProductosLocos.uml#_xQSTkSpdEe27N-nIsQ1_lQ"/>
+        <cardinality xmi:id="_xiSCnCpdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+        <type xmi:id="_xiSCnSpdEe27N-nIsQ1_lQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_xiSCnipdEe27N-nIsQ1_lQ" name="dioCar">
+        <modelElement href="ProductosLocos.uml#_xQSTkipdEe27N-nIsQ1_lQ"/>
+        <cardinality xmi:id="_xiSCnypdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+        <type xmi:id="_xiSCoCpdEe27N-nIsQ1_lQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_xiSCoSpdEe27N-nIsQ1_lQ" name="vapor">
+        <modelElement href="ProductosLocos.uml#_xQSTkypdEe27N-nIsQ1_lQ"/>
+        <cardinality xmi:id="_xiSCoipdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+        <type xmi:id="_xiSCoypdEe27N-nIsQ1_lQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_7BelACpWEe27N-nIsQ1_lQ" name="Productos" associationsIn="_cN4DACpYEe27N-nIsQ1_lQ" subclassedBy="_7BpkICpWEe27N-nIsQ1_lQ">
+    <modelElement href="ProductosLocos.uml#_683x0CpWEe27N-nIsQ1_lQ"/>
+    <visualProperties xmi:id="_7BelASpWEe27N-nIsQ1_lQ" position="1363.0,-22.0" size="285.0,175.0"/>
+    <visibility xmi:id="_7BelAipWEe27N-nIsQ1_lQ" label="+"/>
+    <attributes xmi:id="_7BelAypWEe27N-nIsQ1_lQ" name="fechaCaducidad">
+      <modelElement href="ProductosLocos.uml#_6-BoYSpWEe27N-nIsQ1_lQ"/>
+      <visualProperties xmi:id="_TZZt9CpeEe27N-nIsQ1_lQ"/>
+      <stereotypes xmi:id="_7BelBCpWEe27N-nIsQ1_lQ" name="LegacyStyledElement">
+        <modelElement href="ProductosLocos.uml#_6-CPcCpWEe27N-nIsQ1_lQ"/>
+      </stereotypes>
+      <visibility xmi:id="_7BelBSpWEe27N-nIsQ1_lQ" label="-"/>
+      <cardinality xmi:id="_7BelBipWEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+      <type xmi:id="_UjCE8CpdEe27N-nIsQ1_lQ" name="LocalDate">
+        <modelElement href="ProductosLocos.uml#_UgiKkCpdEe27N-nIsQ1_lQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_7BelCCpWEe27N-nIsQ1_lQ" name="nroLote">
+      <modelElement href="ProductosLocos.uml#_6-CPcSpWEe27N-nIsQ1_lQ"/>
+      <visualProperties xmi:id="_TZZt9SpeEe27N-nIsQ1_lQ"/>
+      <stereotypes xmi:id="_7BelCSpWEe27N-nIsQ1_lQ" name="LegacyStyledElement">
+        <modelElement href="ProductosLocos.uml#_6-C2gCpWEe27N-nIsQ1_lQ"/>
+      </stereotypes>
+      <visibility xmi:id="_7BelCipWEe27N-nIsQ1_lQ" label="-"/>
+      <cardinality xmi:id="_7BelCypWEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+      <type xmi:id="_7BelDCpWEe27N-nIsQ1_lQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_7BelDSpWEe27N-nIsQ1_lQ" name="fechaEnvasado">
+      <modelElement href="ProductosLocos.uml#_6-C2gSpWEe27N-nIsQ1_lQ"/>
+      <visualProperties xmi:id="_TZZt9ipeEe27N-nIsQ1_lQ"/>
+      <stereotypes xmi:id="_7BelDipWEe27N-nIsQ1_lQ" name="LegacyStyledElement">
+        <modelElement href="ProductosLocos.uml#_6-C2gipWEe27N-nIsQ1_lQ"/>
+      </stereotypes>
+      <visibility xmi:id="_7BelDypWEe27N-nIsQ1_lQ" label="-"/>
+      <cardinality xmi:id="_7BelECpWEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+      <type xmi:id="_UjD6ICpdEe27N-nIsQ1_lQ" name="LocalDate">
+        <modelElement href="ProductosLocos.uml#_UgiKkCpdEe27N-nIsQ1_lQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_7BelEipWEe27N-nIsQ1_lQ" name="nombre">
+      <modelElement href="ProductosLocos.uml#_6-DdkCpWEe27N-nIsQ1_lQ"/>
+      <visualProperties xmi:id="_TZZt9ypeEe27N-nIsQ1_lQ"/>
+      <stereotypes xmi:id="_7BelEypWEe27N-nIsQ1_lQ" name="LegacyStyledElement">
+        <modelElement href="ProductosLocos.uml#_6-DdkSpWEe27N-nIsQ1_lQ"/>
+      </stereotypes>
+      <visibility xmi:id="_7BelFCpWEe27N-nIsQ1_lQ" label="-"/>
+      <cardinality xmi:id="_7BelFSpWEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+      <type xmi:id="_7BelFipWEe27N-nIsQ1_lQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_7BelFypWEe27N-nIsQ1_lQ" name="paisOrigen">
+      <modelElement href="ProductosLocos.uml#_6-DdkipWEe27N-nIsQ1_lQ"/>
+      <visualProperties xmi:id="_TZZt-CpeEe27N-nIsQ1_lQ"/>
+      <stereotypes xmi:id="_7BelGCpWEe27N-nIsQ1_lQ" name="LegacyStyledElement">
+        <modelElement href="ProductosLocos.uml#_6-EEoCpWEe27N-nIsQ1_lQ"/>
+      </stereotypes>
+      <visibility xmi:id="_7BelGSpWEe27N-nIsQ1_lQ" label="-"/>
+      <cardinality xmi:id="_7BelGipWEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+      <type xmi:id="_7BelGypWEe27N-nIsQ1_lQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_pf2Z8CpZEe27N-nIsQ1_lQ" name="toString">
+      <modelElement href="ProductosLocos.uml#_pfyIgCpZEe27N-nIsQ1_lQ"/>
+      <visualProperties xmi:id="_TZZt-SpeEe27N-nIsQ1_lQ"/>
+      <stereotypes xmi:id="_pf2Z8SpZEe27N-nIsQ1_lQ" name="Annotations">
+        <modelElement href="ProductosLocos.uml#_pfyIgSpZEe27N-nIsQ1_lQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_pf2Z8ipZEe27N-nIsQ1_lQ" name="LegacyStyledElement">
+        <modelElement href="ProductosLocos.uml#_pfyvkSpZEe27N-nIsQ1_lQ"/>
+      </stereotypes>
+      <visibility xmi:id="_pf2Z8ypZEe27N-nIsQ1_lQ" label="+"/>
+      <cardinality xmi:id="_pf2Z9CpZEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_pf2Z9SpZEe27N-nIsQ1_lQ">
+        <modelElement href="ProductosLocos.uml#_pfzWoCpZEe27N-nIsQ1_lQ"/>
+        <type xmi:id="_pf2Z9ipZEe27N-nIsQ1_lQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_UistwCpdEe27N-nIsQ1_lQ" name="Productos">
+      <modelElement href="ProductosLocos.uml#_UgjYsCpdEe27N-nIsQ1_lQ"/>
+      <visualProperties xmi:id="_TZZt-ipeEe27N-nIsQ1_lQ"/>
+      <keywords xmi:id="_UistwSpdEe27N-nIsQ1_lQ" keyword="create"/>
+      <visibility xmi:id="_UistwipdEe27N-nIsQ1_lQ" label="+"/>
+      <cardinality xmi:id="_UistwypdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_UistxCpdEe27N-nIsQ1_lQ">
+        <modelElement href="ProductosLocos.uml#_UgjYtipdEe27N-nIsQ1_lQ"/>
+        <type xmi:id="_UistxSpdEe27N-nIsQ1_lQ" name="Productos">
+          <modelElement href="ProductosLocos.uml#_683x0CpWEe27N-nIsQ1_lQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_UistxipdEe27N-nIsQ1_lQ" name="f">
+        <modelElement href="ProductosLocos.uml#_UgjYsSpdEe27N-nIsQ1_lQ"/>
+        <cardinality xmi:id="_UistxypdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+        <type xmi:id="_UistyCpdEe27N-nIsQ1_lQ" name="LocalDate">
+          <modelElement href="ProductosLocos.uml#_UgiKkCpdEe27N-nIsQ1_lQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_UistySpdEe27N-nIsQ1_lQ" name="nroLote">
+        <modelElement href="ProductosLocos.uml#_UgjYsipdEe27N-nIsQ1_lQ"/>
+        <cardinality xmi:id="_UistyipdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+        <type xmi:id="_UistyypdEe27N-nIsQ1_lQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_UistzCpdEe27N-nIsQ1_lQ" name="fechaEnv">
+        <modelElement href="ProductosLocos.uml#_UgjYsypdEe27N-nIsQ1_lQ"/>
+        <cardinality xmi:id="_UistzSpdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+        <type xmi:id="_UistzipdEe27N-nIsQ1_lQ" name="LocalDate">
+          <modelElement href="ProductosLocos.uml#_UgiKkCpdEe27N-nIsQ1_lQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_UistzypdEe27N-nIsQ1_lQ" name="nombre">
+        <modelElement href="ProductosLocos.uml#_UgjYtCpdEe27N-nIsQ1_lQ"/>
+        <cardinality xmi:id="_Uist0CpdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+        <type xmi:id="_Uist0SpdEe27N-nIsQ1_lQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_Uist0ipdEe27N-nIsQ1_lQ" name="paisO">
+        <modelElement href="ProductosLocos.uml#_UgjYtSpdEe27N-nIsQ1_lQ"/>
+        <cardinality xmi:id="_Uist0ypdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+        <type xmi:id="_Uist1CpdEe27N-nIsQ1_lQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_7B4NoCpWEe27N-nIsQ1_lQ" name="Envios" associationsOut="_cN4DACpYEe27N-nIsQ1_lQ">
+    <modelElement href="ProductosLocos.uml#_683KwCpWEe27N-nIsQ1_lQ"/>
+    <visualProperties xmi:id="_7B4NoSpWEe27N-nIsQ1_lQ" position="1840.0,48.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_7B4NoipWEe27N-nIsQ1_lQ" label="+"/>
+    <attributes xmi:id="_cN4qECpYEe27N-nIsQ1_lQ" name="listaProductos">
+      <modelElement href="ProductosLocos.uml#_cM-EECpYEe27N-nIsQ1_lQ"/>
+      <stereotypes xmi:id="_aoULsCpeEe2HmqjO7xDpKQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_aoWn8CpeEe2HmqjO7xDpKQ" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_aoZEMCpeEe2HmqjO7xDpKQ" name="LegacyStyledElement"/>
+      <visibility xmi:id="_cN4qEipYEe27N-nIsQ1_lQ" label="-"/>
+      <cardinality xmi:id="_cN4qEypYEe27N-nIsQ1_lQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_cN4qFCpYEe27N-nIsQ1_lQ" name="Productos">
+        <modelElement href="ProductosLocos.uml#_683x0CpWEe27N-nIsQ1_lQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_cNJDMCpYEe27N-nIsQ1_lQ" name="Envios">
+      <modelElement href="ProductosLocos.uml#_cM06ICpYEe27N-nIsQ1_lQ"/>
+      <visualProperties xmi:id="_TZZt-ypeEe27N-nIsQ1_lQ"/>
+      <keywords xmi:id="_cNJDMSpYEe27N-nIsQ1_lQ" keyword="create"/>
+      <visibility xmi:id="_cNJDMipYEe27N-nIsQ1_lQ" label="+"/>
+      <cardinality xmi:id="_cNJDMypYEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_cNJDNCpYEe27N-nIsQ1_lQ">
+        <modelElement href="ProductosLocos.uml#_cM1hMCpYEe27N-nIsQ1_lQ"/>
+        <type xmi:id="_cNJDNSpYEe27N-nIsQ1_lQ" name="Envios">
+          <modelElement href="ProductosLocos.uml#_683KwCpWEe27N-nIsQ1_lQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_cNQ_ACpYEe27N-nIsQ1_lQ" name="añadirProducto">
+      <modelElement href="ProductosLocos.uml#_cM2IQipYEe27N-nIsQ1_lQ"/>
+      <visualProperties xmi:id="_TZZt_CpeEe27N-nIsQ1_lQ"/>
+      <visibility xmi:id="_cNQ_ASpYEe27N-nIsQ1_lQ" label="+"/>
+      <cardinality xmi:id="_cNQ_AipYEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_cNQ_AypYEe27N-nIsQ1_lQ" name="p">
+        <modelElement href="ProductosLocos.uml#_cM2IQypYEe27N-nIsQ1_lQ"/>
+        <cardinality xmi:id="_cNQ_BCpYEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+        <type xmi:id="_cNQ_BSpYEe27N-nIsQ1_lQ" name="Productos">
+          <modelElement href="ProductosLocos.uml#_683x0CpWEe27N-nIsQ1_lQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_ZVgSQCpZEe27N-nIsQ1_lQ" name="mostrarEnvio">
+      <modelElement href="ProductosLocos.uml#_ZVd2ACpZEe27N-nIsQ1_lQ"/>
+      <visualProperties xmi:id="_TZZt_SpeEe27N-nIsQ1_lQ"/>
+      <visibility xmi:id="_ZVgSQSpZEe27N-nIsQ1_lQ" label="+"/>
+      <cardinality xmi:id="_ZVgSQipZEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_7BtOgCpWEe27N-nIsQ1_lQ" name="Congelados" generalizations="_7BpkICpWEe27N-nIsQ1_lQ" subclassedBy="_7BqLMCpWEe27N-nIsQ1_lQ _7BqLMSpWEe27N-nIsQ1_lQ _7BqLMipWEe27N-nIsQ1_lQ _7BqLMypWEe27N-nIsQ1_lQ">
+    <modelElement href="ProductosLocos.uml#_681VkCpWEe27N-nIsQ1_lQ"/>
+    <visualProperties xmi:id="_7BtOgSpWEe27N-nIsQ1_lQ" position="1299.0,230.0" size="385.0,99.0"/>
+    <visibility xmi:id="_7BtOgipWEe27N-nIsQ1_lQ" label="+"/>
+    <attributes xmi:id="_7BtOgypWEe27N-nIsQ1_lQ" name="tempMantenimiento">
+      <modelElement href="ProductosLocos.uml#_6-BBUSpWEe27N-nIsQ1_lQ"/>
+      <visualProperties xmi:id="_TZZt_ipeEe27N-nIsQ1_lQ"/>
+      <stereotypes xmi:id="_7BtOhCpWEe27N-nIsQ1_lQ" name="LegacyStyledElement">
+        <modelElement href="ProductosLocos.uml#_6-BoYCpWEe27N-nIsQ1_lQ"/>
+      </stereotypes>
+      <visibility xmi:id="_7BtOhSpWEe27N-nIsQ1_lQ" label="-"/>
+      <cardinality xmi:id="_7BtOhipWEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+      <type xmi:id="_7BtOhypWEe27N-nIsQ1_lQ" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_qJTxMCpaEe27N-nIsQ1_lQ" name="toString">
+      <modelElement href="ProductosLocos.uml#_qJRU8CpaEe27N-nIsQ1_lQ"/>
+      <visualProperties xmi:id="_TZZt_ypeEe27N-nIsQ1_lQ"/>
+      <stereotypes xmi:id="_qJTxMSpaEe27N-nIsQ1_lQ" name="Annotations">
+        <modelElement href="ProductosLocos.uml#_qJR8ACpaEe27N-nIsQ1_lQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_qJTxMipaEe27N-nIsQ1_lQ" name="LegacyStyledElement">
+        <modelElement href="ProductosLocos.uml#_qJR8AipaEe27N-nIsQ1_lQ"/>
+      </stereotypes>
+      <visibility xmi:id="_qJTxMypaEe27N-nIsQ1_lQ" label="+"/>
+      <cardinality xmi:id="_qJTxNCpaEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qJTxNSpaEe27N-nIsQ1_lQ">
+        <modelElement href="ProductosLocos.uml#_qJSjECpaEe27N-nIsQ1_lQ"/>
+        <type xmi:id="_qJTxNipaEe27N-nIsQ1_lQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_qT0QsCpdEe27N-nIsQ1_lQ" name="Congelados">
+      <modelElement href="ProductosLocos.uml#_qRiYwCpdEe27N-nIsQ1_lQ"/>
+      <visualProperties xmi:id="_TZZuACpeEe27N-nIsQ1_lQ"/>
+      <keywords xmi:id="_qT0QsSpdEe27N-nIsQ1_lQ" keyword="create"/>
+      <visibility xmi:id="_qT0QsipdEe27N-nIsQ1_lQ" label="+"/>
+      <cardinality xmi:id="_qT0QsypdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_qT0QtCpdEe27N-nIsQ1_lQ">
+        <modelElement href="ProductosLocos.uml#_qRi_1ipdEe27N-nIsQ1_lQ"/>
+        <type xmi:id="_qT0QtSpdEe27N-nIsQ1_lQ" name="Congelados">
+          <modelElement href="ProductosLocos.uml#_681VkCpWEe27N-nIsQ1_lQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_qT0QtipdEe27N-nIsQ1_lQ" name="f">
+        <modelElement href="ProductosLocos.uml#_qRi_0CpdEe27N-nIsQ1_lQ"/>
+        <cardinality xmi:id="_qT0QtypdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+        <type xmi:id="_qT0QuCpdEe27N-nIsQ1_lQ" name="LocalDate">
+          <modelElement href="ProductosLocos.uml#_UgiKkCpdEe27N-nIsQ1_lQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qT0QuSpdEe27N-nIsQ1_lQ" name="nroLote">
+        <modelElement href="ProductosLocos.uml#_qRi_0SpdEe27N-nIsQ1_lQ"/>
+        <cardinality xmi:id="_qT0QuipdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+        <type xmi:id="_qT0QuypdEe27N-nIsQ1_lQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qT0QvCpdEe27N-nIsQ1_lQ" name="fechaEnv">
+        <modelElement href="ProductosLocos.uml#_qRi_0ipdEe27N-nIsQ1_lQ"/>
+        <cardinality xmi:id="_qT0QvSpdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+        <type xmi:id="_qT0QvipdEe27N-nIsQ1_lQ" name="LocalDate">
+          <modelElement href="ProductosLocos.uml#_UgiKkCpdEe27N-nIsQ1_lQ"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qT0QvypdEe27N-nIsQ1_lQ" name="nombre">
+        <modelElement href="ProductosLocos.uml#_qRi_0ypdEe27N-nIsQ1_lQ"/>
+        <cardinality xmi:id="_qT0QwCpdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+        <type xmi:id="_qT0QwSpdEe27N-nIsQ1_lQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qT0QwipdEe27N-nIsQ1_lQ" name="paisO">
+        <modelElement href="ProductosLocos.uml#_qRi_1CpdEe27N-nIsQ1_lQ"/>
+        <cardinality xmi:id="_qT0QwypdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+        <type xmi:id="_qT0QxCpdEe27N-nIsQ1_lQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_qT0QxSpdEe27N-nIsQ1_lQ" name="tempMan">
+        <modelElement href="ProductosLocos.uml#_qRi_1SpdEe27N-nIsQ1_lQ"/>
+        <cardinality xmi:id="_qT0QxipdEe27N-nIsQ1_lQ" label="1" max="1" min="1"/>
+        <type xmi:id="_qT0QxypdEe27N-nIsQ1_lQ" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
