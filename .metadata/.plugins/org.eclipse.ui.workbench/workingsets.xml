@@ -2,6 +2,23 @@
 <workingSetManager>
 <workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1660861201884_0" label="Java Main Sources" name="Java Main Sources"/>
 <workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1660861201898_1" label="Java Test Sources" name="Java Test Sources"/>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1663862091909_5" label="Universidad" name="Universidad">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/sumaDiagonal" type="4"/>
+<item elementID="=FotosEspaciales" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Pruebas" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ProductosLocos" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AltaEnElCielo" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/vectorSumas" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/sumaAdyacentes" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/NumeroCalle" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/operacionesMatrices" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/TierraFantasia" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/DepositosSubterraneos" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/PuntoEnPlano" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/EntradasYSalidas" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/PonyExpress" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Practica_3" type="4"/>
+</workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1660861202436_2" label="Window Working Set" name="Aggregate for window 1660861202436"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1661382387153_3" label="Window Working Set" name="Aggregate for window 1661382387153"/>
 </workingSetManager>
