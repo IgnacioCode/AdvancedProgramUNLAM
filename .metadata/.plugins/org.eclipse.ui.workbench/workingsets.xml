@@ -18,7 +18,12 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/EntradasYSalidas" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/PonyExpress" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Practica_3" type="4"/>
-<item elementID="=ArmandoMoviles" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ArmandoMoviles" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ConflictoReinas" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ErroresTipeo" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AventurasMateras" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Monticulo" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/InstalandoAplicaciones" type="4"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1660861202436_2" label="Window Working Set" name="Aggregate for window 1660861202436"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1661382387153_3" label="Window Working Set" name="Aggregate for window 1661382387153"/>
