@@ -48,7 +48,7 @@ public class Main {
 		File pfIn = new File("entrada.in");
 		File pfOut = new File("salida.out");
 		
-		Tablero miTablero = cargaReinas(reinas,pfIn);
+		Tablero miTablero = cargaReinas(reinas,pfIn); // N 
 		
 		verificaEnfrentamientos(miTablero,reinas,pfOut);
 		
@@ -87,7 +87,7 @@ public class Main {
 		for(int i = 0;i<reinas.size();i++) { //Se ejecuta N veces
 			Reina actual = reinas.get(i);
 			for(int j = 0 ; j<8;j++) {	//Se ejecuta 8 veces
-				posEncontrada = barreRecta(tablero,actual,j);
+				posEncontrada = barreRecta(tablero,actual,j); // N
 				if(posEncontrada != null) {
 					colaEncontradas.add(posEncontrada);
 					cantEncontradas++;
@@ -156,7 +156,7 @@ public class Main {
 		posX+=desX;
 		posY+=desY;
 		
-		while(posX >= 0 && posX <= tamaño-1 && posY >= 0 && posY <= tamaño-1 && !reinaEncontrada) {
+		while(posX >= 0 && posX <= tamaño-1 && posY >= 0 && posY <= tamaño-1 && !reinaEncontrada) { // 	N
 			
 			if(tablero.matPos[posX][posY] != 0 )
 				reinaEncontrada = true;

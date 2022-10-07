@@ -24,6 +24,7 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/AventurasMateras" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Monticulo" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/InstalandoAplicaciones" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/BuenConflictoReinas" type="4"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1660861202436_2" label="Window Working Set" name="Aggregate for window 1660861202436"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1661382387153_3" label="Window Working Set" name="Aggregate for window 1661382387153"/>
