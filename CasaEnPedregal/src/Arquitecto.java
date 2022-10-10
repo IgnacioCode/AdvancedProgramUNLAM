@@ -7,7 +7,7 @@ public class Arquitecto {
 		boolean hayPiedrasN=false;
 		boolean hayPiedrasE=false;
 		if( (p.getCasita().getF() > p.getDx() || p.getCasita().getL() > p.getDy()) || 
-				(p.getCasita().getF() > p.getDy() || p.getCasita().getL() > p.getDx())	) 
+			(p.getCasita().getF() > p.getDy() || p.getCasita().getL() > p.getDx())	) 
 			return false;
 		
 		// n ---> El tamaño del mapa  | Max = 100

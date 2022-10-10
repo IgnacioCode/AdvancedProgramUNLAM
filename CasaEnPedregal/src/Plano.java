@@ -14,6 +14,7 @@ public class Plano {
 		constructor.posicionaCasa(miPlano); //O(n^2 * m^2)
 		System.out.println(miPlano.getCasita().getPosX()+" "+miPlano.getCasita().getPosY() + " "+ miPlano.getCasita().getOrientacion());
 		GestionArchivo.escribeArchivo(miPlano, "casaGrande.out"); //O(1)
+		
 	}
 
 	public Plano(int dx, int dy, Casa casita,int[][] mapita) {
