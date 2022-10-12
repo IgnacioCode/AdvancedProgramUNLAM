@@ -1,3 +1,5 @@
+import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeSet;
@@ -19,6 +21,8 @@ public class Pais {
 			if(llave!=nombre && limitrofes.contains(llave)) {
 				transLimitrofes.addAll(mundo.get(llave));
 			}
+			transLimitrofes.remove(nombre);
+			transLimitrofes.removeAll(limitrofes);
 		}
 		
 		transLimitrofes.remove(nombre);

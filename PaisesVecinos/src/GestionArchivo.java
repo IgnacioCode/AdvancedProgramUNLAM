@@ -2,6 +2,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.LinkedHashSet;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
@@ -32,11 +33,11 @@ public class GestionArchivo {
 			conjuntoPaises.put(vecino,conjuntoVecino);
 			
 		}
-		
+		/*
 		for (String llave : conjuntoPaises.keySet()) {
 			System.out.println(llave + ": " + conjuntoPaises.get(llave));
 		}
-		
+		*/
 		return conjuntoPaises;
 		
 	}
@@ -75,6 +76,7 @@ public class GestionArchivo {
 			String actual = l.get(i);
 			for (int j = 0; j < l.size(); j++) {
 				String leido = l.get(j);
+				System.out.println(leido);
 				if(parIgual(actual,leido))
 					l.remove(j);
 			}
