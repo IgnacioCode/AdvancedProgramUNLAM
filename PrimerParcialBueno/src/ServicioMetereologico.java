@@ -46,7 +46,6 @@ public class ServicioMetereologico {
 	}
 
 	private static void comparaHostilidades(Estacion actual, Estacion sig) {
-		
 		int comp = actual.compareTo(sig);
 		
 		if(comp == 1)
@@ -57,8 +56,6 @@ public class ServicioMetereologico {
 			actual.sumaCantIguales();
 			sig.sumaCantIguales();
 		}
-			
-
 	}
 
 	public List<Estacion> getEstacionesPeores() {
