@@ -1,8 +1,9 @@
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import grafo.ArrayGraph;
-import grafo.Graph;
+import graph.ArrayGraph;
+import graph.Graph;
+
 
 public class Main {
 	public static void main(String[] args) {
@@ -29,8 +30,8 @@ public class Main {
 							  {inf,inf,inf,inf,inf}};
 		
 		
-		Graph<String> miGrafo = new ArrayGraph<String>(indices,conexiones);
-		
+		ArrayGraph<String> miGrafo = new ArrayGraph<String>(indices,conexiones);
+		/*
 		int[][] resultado = miGrafo.calculateDijkstra("5");
 		for (int i = 0; i < resultado[0].length; i++) {
 			System.out.print(resultado[0][i]+" ");
@@ -41,5 +42,17 @@ public class Main {
 		}
 		System.out.println();
 		System.out.println(miGrafo.size());
+		*/
+		
+		imprimeArray(miGrafo.connectionsArray());
+	}
+	
+	private static void imprimeArray(int[][] a) {
+		for (int i = 0; i < a.length; i++) {
+			for (int j = 0; j < a[0].length; j++) {
+				System.out.print(a[i][j]+" ");
+			}
+			System.out.println();
+		}
 	}
 }
