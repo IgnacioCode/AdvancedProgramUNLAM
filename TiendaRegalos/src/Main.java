@@ -5,9 +5,9 @@ public class Main {
 	
 	public static void main(String[] args) throws IOException {
 		
-		Grafo miGrafo = GestionArchivo.leeArchivo("fatiga.txt");
+		Grafo miGrafo = GestionArchivo.leeArchivo("fatiga.txt"); //O(n^2)
 		
-		PintorGrafos pintor = new PintorGrafos();
+		PintorGrafos pintor = new PintorGrafos(); //O(1)
 		
 		Set<Nodo> mayorInconexo = pintor.grupoMaximoColoreado(miGrafo);
 		

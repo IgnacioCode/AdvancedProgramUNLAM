@@ -9,7 +9,7 @@ public class Grafo {
 	private int[][] adyacentes;
 	private Map<Nodo,Integer> indices = new LinkedHashMap<Nodo,Integer>();
 	
-	public Grafo(List<Nodo> nodos, int[][] adyacentes) {
+	public Grafo(List<Nodo> nodos, int[][] adyacentes) { //O(n^2)
 		
 		super();
 		if(nodos.size() != adyacentes.length)
@@ -17,14 +17,14 @@ public class Grafo {
 		this.nodos = nodos;
 		this.adyacentes = adyacentes;
 		int c = 0;
-		for (Nodo n : nodos) {
+		for (Nodo n : nodos) { //O(n)
 			indices.put(n, c);
 			c++;
 		}
 		
-		for (Nodo n : nodos) {
+		for (Nodo n : nodos) { //O(n^2)
 			int index = indices.get(n);
-			for (int i = 0; i < adyacentes[index].length; i++) {
+			for (int i = 0; i < adyacentes[index].length; i++) { //O(n)
 				if(adyacentes[index][i] == 1)
 					n.addCantAdyacentes();
 			}
