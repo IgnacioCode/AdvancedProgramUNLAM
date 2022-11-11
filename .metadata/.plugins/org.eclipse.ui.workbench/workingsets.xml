@@ -38,7 +38,9 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/TDAGrafos" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/TiendaRegalos" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/MetroSubterraneo" type="4"/>
-<item elementID="=GusanoVirus" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/GusanoVirus" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ElMinotauro" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ReconstruyendoPelicula" type="4"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1660861202436_2" label="Window Working Set" name="Aggregate for window 1660861202436"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1661382387153_3" label="Window Working Set" name="Aggregate for window 1661382387153"/>
