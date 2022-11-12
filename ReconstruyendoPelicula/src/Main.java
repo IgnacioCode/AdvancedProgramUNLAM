@@ -6,14 +6,14 @@ public class Main {
 		
 		try {
 			Grafo miGrafo = GestionArchivo.leerArchivo("enunciado.in");
-			
+			miGrafo.imprimeMatriz();
 			int[][] PRes = miGrafo.calculaDijkstra(1);
-			for (int[] is : PRes) {
+			/*for (int[] is : PRes) {
 				for (int is2 : is) {
 					System.out.print(is2+" ");
 				}
 				System.out.println();
-			}
+			}*/
 			
 			GestionArchivo.escribeArchivo("enunciado.out", miGrafo, PRes);
 		} catch (FaltanSegmentosException e) {
