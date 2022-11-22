@@ -9,6 +9,8 @@ public class TestElectronica{
 
     @Test
     public void prueba_incorrecta(){
-        CajaElectronica miCaja = new
+        CajaElectronica miCaja = new CajaElectronica(2,1,5);
+        miCaja.ingresaClave(1,1,1);
+        System.out.println(miCaja.OK());
     } 
 }
