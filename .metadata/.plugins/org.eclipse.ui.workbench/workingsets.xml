@@ -43,7 +43,9 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/ReconstruyendoPelicula" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/LaReserva" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/InvitadosFiesta" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/RedEmpresarial" type="4"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1660861202436_2" label="Window Working Set" name="Aggregate for window 1660861202436"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1661382387153_3" label="Window Working Set" name="Aggregate for window 1661382387153"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1668968409316_8" label="Window Working Set" name="Aggregate for window 1668968409316"/>
 </workingSetManager>
