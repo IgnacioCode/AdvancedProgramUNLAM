@@ -48,7 +48,8 @@
 <workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1681429832909_8" label="AI_Projects" name="AI_Projects">
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/BudgetPlanner" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/SnakeIA" type="4"/>
-<item elementID="=OnlineChat" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/OnlineChat" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/GameLab" type="4"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1660861202436_2" label="Window Working Set" name="Aggregate for window 1660861202436"/>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1661382387153_3" label="Window Working Set" name="Aggregate for window 1661382387153"/>

@@ -1,5 +1,7 @@
 package processTree;
 
+import java.time.Duration;
+import java.time.Instant;
 import java.util.Random;
 
 public class MatrixMultiplier implements Runnable 
@@ -18,23 +20,39 @@ public class MatrixMultiplier implements Runnable
     this.row = row;
   }
   
-  public static int[][] multiplyNormal(int[][] matrix1, int[][] matrix2) 
+  @Override
+  public void run() 
   {
-   int n = matrix1.length;
-   int[][] result = new int[n][n];
-   for (int i = 0; i < n; i++) 
-   {
-	   for (int j = 0; j < n; j++) 
-	   {
-	 	   for (int k = 0; k < n; k++) 
-	 	   {
-	 		   result[i][j] += matrix1[i][k] * matrix2[k][j];
-	 	   }
-	   }
-   }
-  return result;
+    multiply(row);
   }
   
+  
+  public static int[][] multiplyNormal(int[][] matrix1, int[][] matrix2) 
+  {
+    if(!canMultiply(matrix1,matrix2)) 
+    {
+    	throw new RuntimeException();
+    }
+    
+    int n = matrix1.length;
+    int[][] result = new int[n][n];
+    for (int i = 0; i < n; i++) 
+    {
+      for (int j = 0; j < n; j++) 
+      {
+        for (int k = 0; k < n; k++) 
+        {
+          result[i][j] += matrix1[i][k] * matrix2[k][j];
+        }
+      }
+    }
+    return result;
+  }
+  
+  /*
+   * Esta es la funcion que se encarga de solo multiplicar una fila 
+   * para que asi cada hilo cumpla con su respectiva multiplicacion
+   */
   public void multiply(int row) 
   {
     int n = matrix1.length;
@@ -46,14 +64,46 @@ public class MatrixMultiplier implements Runnable
       }
     }
   }
-
-  @Override
-  public void run() 
+  
+  /*
+   * Esta funcion implementa un Dessing Pattern de Linea de Ensamblaje donde
+   * se realiza la multiplicacion de 2 matrices donde por cada fila hay 1 hilo
+   * que se encarga de su multiplicacion 
+   */
+  public static int[][] multiplyThreads(int[][] matrix1, int[][] matrix2) 
   {
-    multiply(row);
+	
+	if(!canMultiply(matrix1,matrix2))
+		throw new RuntimeException();
+	
+	int n = matrix1.length;
+	
+	MatrixMultiplier[] multipliers = new MatrixMultiplier[n];
+    Thread[] threads = new Thread[n];
+    int[][] CH = new int[n][n];
+    for (int i = 0; i < n; i++) 
+    {
+      multipliers[i] = new MatrixMultiplier(matrix1, matrix2, CH, i);
+      threads[i] = new Thread(multipliers[i]);
+      threads[i].start();
+    }
+    try 
+    {
+      for (int i = 0; i < n; i++) 
+      {
+        threads[i].join();
+      }
+    } 
+    catch (InterruptedException e) 
+    {
+      e.printStackTrace();
+    }
+    
+    return CH;
+    
   }
 
-  private static int[][] generateRandomMatrix(int n) 
+  public static int[][] generateRandomMatrix(int n) 
   {
     int[][] matrix = new int[n][n];
     Random rand = new Random();
@@ -68,7 +118,7 @@ public class MatrixMultiplier implements Runnable
     return matrix;
   }
 
-  private static void printMatrix(int[][] matrix) 
+  public static void printMatrix(int[][] matrix) 
   {
 	  int n = matrix.length;
 	  int maxLength = Integer.MIN_VALUE;
@@ -118,56 +168,57 @@ public class MatrixMultiplier implements Runnable
       return true;
   }
 
+  public static boolean canMultiply(int[][] matrix1, int[][] matrix2) 
+  {
+	int columns = matrix1[0].length;
+	int rows = matrix2.length;
+	return columns == rows;
+  }
 
-  public static void main(String[] args) 
+  public static void main(String[] args) throws InterruptedException 
   {
 	Random ranGen = new Random();
-    int n = ranGen.nextInt(5, 20);
+    int n = ranGen.nextInt(15)+5;
 	int[][] matrix1 = generateRandomMatrix(n);
     int[][] matrix2 = generateRandomMatrix(n);
     int[][] CH = new int[n][n];
     int[][] CS = new int[n][n];
     
+    Instant starNormal = Instant.now();
     CS = multiplyNormal(matrix1, matrix2);
+    Thread.sleep(1);
+    Instant endNormal = Instant.now();
     
     //Design Pattern de LINEA DE ENSAMBLAJE
-    MatrixMultiplier[] multipliers = new MatrixMultiplier[n];
-    Thread[] threads = new Thread[n];
+    Instant startThreaded = Instant.now();
+    CH = multiplyThreads(matrix1, matrix2);
+    Thread.sleep(1);
+    Instant endThreaded = Instant.now();
     
-    for (int i = 0; i < n; i++) 
-    {
-      multipliers[i] = new MatrixMultiplier(matrix1, matrix2, CH, i);
-      threads[i] = new Thread(multipliers[i]);
-      threads[i].start();
-    }
-    try 
-    {
-      for (int i = 0; i < n; i++) 
-      {
-        threads[i].join();
-      }
-    } 
-    catch (InterruptedException e) 
-    {
-      e.printStackTrace();
-    }
+    long normalTime = Duration.between(starNormal, endNormal).toNanosPart();
+    long threadedTime = Duration.between(startThreaded, endThreaded).toNanosPart();
     
     System.out.println("Matriz 1:");
     printMatrix(matrix1);
     System.out.println("Matriz 2:");
     printMatrix(matrix2);
-    System.out.println("Resultado Secuencial:");
+    System.out.println("Resultado Secuencial: " + normalTime);
     printMatrix(CS);
-    System.out.println("Resultado Concurrente:");
+    System.out.println("Resultado Concurrente: "  + threadedTime);
     printMatrix(CH);
     
     if(areEqual(CS, CH))
+    {
     	System.out.println("Las matrices son iguales!");
+    }
     else
+    {
     	System.out.println("Las matrices no son iguales :(");
+    }
+    	
+    System.out.println((double)normalTime/1000 + " microsegundos");
+    System.out.println((double)threadedTime/1000 + " microsegundos");
     
   }
-
-
 
 }
